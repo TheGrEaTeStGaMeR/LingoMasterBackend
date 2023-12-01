@@ -1,0 +1,21 @@
+{
+  "name": "discordshop",
+  "version": "1.0.0",
+  "description": "This is backend of Discord Account Shop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\"",
+    "build": "echo 'No build step required'"
+  },
+  "author": "TheGrEaTeStGaMeR",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "uuid": "^9.0.0"
+  }
+}
